@@ -4,37 +4,30 @@ function App() {
   return (
     <main className="min-h-screen bg-[#f8f9fb] text-[#172033]">
       {/* Navigation */}
-      <nav className="fixed inset-x-0 top-0 z-50 px-4 pt-4 lg:px-8">
-  <div className="mx-auto flex max-w-5xl items-center justify-center rounded-full border border-[#172033]/10 bg-white/80 px-6 py-3 shadow-sm backdrop-blur-xl">
+      <nav className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-4 sm:pt-4">
+  <div className="mx-auto flex max-w-5xl items-center justify-center rounded-full border border-[#172033]/10 bg-white/85 px-3 py-3 shadow-sm backdrop-blur-xl sm:px-5">
 
-    <div className="hidden items-center gap-8 text-xs font-medium text-[#64748b] md:flex">
-      <a href="#about" className="transition hover:text-[#172033]">
+    <div className="flex items-center gap-3 text-[10px] font-medium text-[#64748b] sm:gap-5 sm:text-xs">
+      <a href="#about" className="whitespace-nowrap transition hover:text-[#172033]">
         About
       </a>
 
-      <a href="#journey" className="transition hover:text-[#172033]">
+      <a href="#journey" className="whitespace-nowrap transition hover:text-[#172033]">
         Journey
       </a>
 
-      <a href="#research" className="transition hover:text-[#172033]">
-        Teaching & Research
+      <a href="#research" className="whitespace-nowrap transition hover:text-[#172033]">
+        Academia
       </a>
 
-      <a href="#achievements" className="transition hover:text-[#172033]">
+      <a href="#achievements" className="whitespace-nowrap transition hover:text-[#172033]">
         Achievements
       </a>
 
-      <a href="#contact" className="transition hover:text-[#172033]">
+      <a href="#contact" className="whitespace-nowrap transition hover:text-[#172033]">
         Contact
       </a>
     </div>
-
-    <button
-      className="rounded-full border border-[#172033]/10 px-4 py-2 text-xs font-medium text-[#172033] md:hidden"
-      type="button"
-    >
-      Menu
-    </button>
 
   </div>
 </nav>
